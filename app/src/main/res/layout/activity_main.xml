@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.theupsetmonster.musiac2.MainActivity">
+
+    <LinearLayout
+        style="@style/RowContent">
+        <ImageButton
+            style = "@style/ImageButton"
+            android:id="@+id/music_library"
+            android:background="@color/colorRed"
+            android:src="@drawable/ic_library_music_white_48dp"/>
+        <ImageButton
+            style = "@style/ImageButton"
+            android:id="@+id/recent"
+            android:background="@color/colorBlue"
+            android:src="@drawable/ic_restore_white_48dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/RowContent">
+        <ImageButton
+            style = "@style/ImageButton"
+            android:id="@+id/favorites"
+            android:background="@color/colorGreen"
+            android:src="@drawable/ic_star_white_48dp"/>
+        <ImageButton
+            style = "@style/ImageButton"
+            android:id="@+id/settings"
+            android:background="@color/colorOrange"
+            android:src="@drawable/ic_settings_white_48dp"/>
+    </LinearLayout>
+</LinearLayout>

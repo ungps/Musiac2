@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RowContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ImageButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="PlayBoxContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:layout_margin">@dimen/playbox_vertical_margin</item>
+    </style>
+
+    <style name="DisplaySong">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/playbox_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/playbox_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/playbox_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/playbox_vertical_margin</item>
+    </style>
+
+    <style name="LoadingBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/playbox_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/playbox_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/playbox_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/playbox_vertical_margin</item>
+    </style>
+
+    <style name="PlayButtonsContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/playbox_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/playbox_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/playbox_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/playbox_vertical_margin</item>
+    </style>
+
+    <style name="PlayButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="BackButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:drawableLeft">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="android:drawableStart">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="android:text">@string/back</item>
+    </style>
+</resources>

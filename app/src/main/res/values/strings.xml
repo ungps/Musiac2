@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Musiac2</string>
+    <string name="artist_name">Artist name</string>
+    <string name="song_name">Song name</string>
+    <string name="fav_description">This activity will contain a list with favorite songs.
+    "SQLLiteOpenHelper" (and "SQLiteDatabase") class will be necessary to store favorite songs.
+    </string>
+    <string name="hist_description">This activity will contain a list with last played songs. In
+    order to save a list with last played songs (which should be available even after a restart)
+    we will need to use "SQLiteOpenHelper" class (and SQLLiteDatabase)</string>
+    <string name="lib_description">This activity will contain a list (ListView) with all the songs.
+    The "MediaPlayer" class is necessary to play media files and SQLiteDatabase, SQLiteOpenHelper
+    classes to store information about songs). </string>
+    <string name="sett_description">This activity will contain the settings of the application.
+    The "SharedPreferences" class will also be used in this case in order to prevent settings
+    going back to default after the application is restarted.</string>
+    <string name="back">Back</string>
+</resources>
